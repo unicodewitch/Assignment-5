@@ -69,41 +69,247 @@ generations.</p>
                </div>
         </section>
     </header>
-    <section class="bg-emerald-50">
-        <div class="main-container-wrapper">
-        <h1 class="text-2xl font-bold text-center mb-8">Choose Your Trees</h1>
-    <!-- left sidebar -->
-    <div class="mx-10">
-        <h2 class="font-bold">Categories</h2>
-        <div>
-            <ul>
-                <li>All Trees</li>
-                <li>Fruit Trees</li>
-                <li>Flowering Trees</li>
-                <li>Shades Trees</li>
-                <li>Medical Trees</li>
-                <li>Timber Trees</li>
-                <li>Evergreen Trees</li>
-                <li>Ornamental Trees</li>
-                <li>Bamboo</li>
-                <li>Climbers</li>
-                <li>Aquatic Plants</li>
-            </ul>
-        </div>
-    </div>
-    <!-- middle content -->
-     <!-- <div class="bg-slate-100 rounded-lg w-100 h-100">
-        <img src="./assets/hero-leaf1.png" alt="#">
-        <div><h2>Mango Tree</h2>
-        <br>
-        <p>A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green</p>
-        <br></div>
-        <div class="flex"><button>Fruit Tree</button>
-            <p><i class="fa-solid fa-dollar-sign"></i>500</p>
-        </div>
-        <button class="rounded-full bg-green-400 px-6 py-2 hover:bg-green-500">Add to Cart</button>
+
+    <!-- Trees section -->
+     <section class="bg-emerald-50">
+      <div class="container mx-auto px-4 py-8">
+        <!-- Page Title -->
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-8">Choose Your Trees</h1>
         
-     </div> -->
+        <div class="flex flex-col lg:flex-row gap-8">
+            <!-- Left Sidebar - Categories -->
+            <div class="lg:w-1/4">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-4">Categories</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="block py-2 px-3 bg-green-600 text-white rounded">All Trees</a></li>
+                        <li><a href="#" class="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded">Fruit Trees</a></li>
+                        <li><a href="#" class="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded">Flowering Trees</a></li>
+                        <li><a href="#" class="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded">Shade Trees</a></li>
+                        <li><a href="#" class="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded">Medicinal Trees</a></li>
+                        <li><a href="#" class="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded">Timber Trees</a></li>
+                        <li><a href="#" class="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded">Evergreen Trees</a></li>
+                        <li><a href="#" class="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded">Ornamental Plants</a></li>
+                        <li><a href="#" class="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded">Bamboo</a></li>
+                        <li><a href="#" class="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded">Climbers</a></li>
+                        <li><a href="#" class="block py-2 px-3 text-gray-700 hover:bg-gray-100 rounded">Aquatic Plants</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Main Content Area -->
+            <div class="lg:w-2/4">
+                <!-- Product Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                    <!-- Product Card 1 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1685478677113-8c4a58503230?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mango Tree" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-gray-800 mb-2">Mango Tree</h4>
+                            <p class="text-sm text-gray-600 mb-3">A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green</p>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-sm">Fruit Tree</span>
+                                <span class="font-bold text-gray-800">৳500</span>
+                            </div>
+                            <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-full transition-colors">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Card 2 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1663315110779-ffaa2fde4f0b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Guava Tree" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-gray-800 mb-2">Guava Tree</h4>
+                            <p class="text-sm text-gray-600 mb-3">A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green</p>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-sm">Fruit Tree</span>
+                                <span class="font-bold text-gray-800">৳350</span>
+                            </div>
+                            <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-full transition-colors">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Card 3 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1596626233681-39f5eb87d501?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Jackfruit Tree" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-gray-800 mb-2">Jackfruit Tree</h4>
+                            <p class="text-sm text-gray-600 mb-3">A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green</p>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-sm">Fruit Tree</span>
+                                <span class="font-bold text-gray-800">৳800</span>
+                            </div>
+                            <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-full transition-colors">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Card 4 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1706174826079-950528804f5b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gulmohar Tree" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-gray-800 mb-2">Gulmohar Tree</h4>
+                            <p class="text-sm text-gray-600 mb-3">A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green</p>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-sm">Fruit Tree</span>
+                                <span class="font-bold text-gray-800">৳400</span>
+                            </div>
+                            <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-full transition-colors">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Card 5 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1680008703027-d333b63bae9b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Champa Tree" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-gray-800 mb-2">Champa Tree</h4>
+                            <p class="text-sm text-gray-600 mb-3">A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green</p>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-sm">Fruit Tree</span>
+                                <span class="font-bold text-gray-800">৳300</span>
+                            </div>
+                            <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-full transition-colors">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Card 6 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1741767355361-db2c116cd72c?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Krishnochura Tree" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-gray-800 mb-2">Krishnochura Tree</h4>
+                            <p class="text-sm text-gray-600 mb-3">A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green</p>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-sm">Fruit Tree</span>
+                                <span class="font-bold text-gray-800">৳450</span>
+                            </div>
+                            <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-full transition-colors">Add to Cart</button>
+                        </div>
+                    </div>
+                    <!-- product 7 -->
+                                         <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="banyan Tree" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-gray-800 mb-2">Banyan Tree</h4>
+                            <p class="text-sm text-gray-600 mb-3">A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green</p>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-sm">Fruit Tree</span>
+                                <span class="font-bold text-gray-800">৳1200</span>
+                            </div>
+                            <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-full transition-colors">Add to Cart</button>
+                        </div>
+                    </div>
+                    <!-- product 8 -->
+                                         <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1711029033665-fa5613e226df?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Neem Tree" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-gray-800 mb-2">Neem Tree</h4>
+                            <p class="text-sm text-gray-600 mb-3">A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green</p>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-sm">Fruit Tree</span>
+                                <span class="font-bold text-gray-800">৳600</span>
+                            </div>
+                            <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-full transition-colors">Add to Cart</button>
+                        </div>
+                    </div>
+                    <!-- product 9 -->
+                                         <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1503435824048-a799a3a84bf7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rain Tree" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-gray-800 mb-2">Champa Tree</h4>
+                            <p class="text-sm text-gray-600 mb-3">A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green</p>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-sm">Fruit Tree</span>
+                                <span class="font-bold text-gray-800">৳900</span>
+                            </div>
+                            <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-full transition-colors">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Sidebar - Cart -->
+            <div class="lg:w-1/4">
+                <div class="bg-white rounded-lg shadow-md p-6 sticky top-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-4">Your Cart</h3>
+                    
+                    <!-- Cart Item 1 -->
+                    <div class="flex items-center justify-between py-3  bg-green-100 rounded-xl">
+                        <div>
+                            <p class="font-medium  text-gray-800">Mango Tree</p>
+                            <p class="text-sm text-gray-600">৳500 × 1</p>
+                        </div>
+                        <button class="text-red-500 hover:text-red-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <!-- Cart Item 2 -->
+                    <div class="flex items-center justify-between py-3  bg-green-100 rounded-xl my-3">
+                        <div>
+                            <p class="font-medium text-gray-800">Guava Tree</p>
+                            <p class="text-sm text-gray-600">৳500 × 1</p>
+                        </div>
+                        <button class="text-red-500 hover:text-red-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <!-- Total -->
+                    <div class="mt-4 pt-4 border-t">
+                        <div class="flex items-center justify-between font-semibold text-gray-800">
+                            <span>Total:</span>
+                            <span>৳1000</span>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+     </section>
+    
+     <!-- Campaign section -->
+     <section class="bg-emerald-50 py-16 px-4">
+            <!-- H2 Heading -->
+            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 text-center mb-12">About the Campaign</h2>
+            
+            <!-- Content: Image Left, Text Right -->
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Left Side - Image -->
+                <div class="flex justify-center">
+                    <img src="./assets/about.png" 
+                         alt="Green plant growing" 
+                         class="w-full max-w-sm h-96 object-cover rounded-lg shadow-lg">
+                </div>
+                
+                <!-- Right Side - Text Content -->
+                <div class="space-y-6">
+                    <p class="text-gray-700 leading-relaxed text-sm">
+                        Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we've planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.
+                    </p>
+                    
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <span class="w-2 h-2 bg-black rounded-full mt-3 flex-shrink-0"></span>
+                            <span class="text-gray-700">Restoration of natural habitats</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="w-2 h-2 bg-black rounded-full mt-3 flex-shrink-0"></span>
+                            <span class="text-gray-700">Improvement of air quality</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="w-2 h-2 bg-black rounded-full mt-3 flex-shrink-0"></span>
+                            <span class="text-gray-700">Support for local communities</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </section>
     </section>
     <!-- impact part -->
 
@@ -119,7 +325,7 @@ generations.</p>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pb-10">
         
         <!-- Card 1 -->
-        <div class="bg-white rounded-xl shadow-lg p-6">
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:bg-green-300">
           <div class="text-3xl md:text-4xl font-bold text-green-600">
             500K+
           </div>
@@ -129,7 +335,7 @@ generations.</p>
         </div>
         
         <!-- Card 2 -->
-        <div class="bg-white rounded-xl shadow-lg p-6">
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:bg-green-300">
           <div class="text-3xl md:text-4xl font-bold text-green-600">
             120+
           </div>
@@ -139,7 +345,7 @@ generations.</p>
         </div>
         
         <!-- Card 3 -->
-        <div class="bg-white rounded-xl shadow-lg p-6">
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:bg-green-300">
           <div class="text-3xl md:text-4xl font-bold text-green-600">
             30+
           </div>
@@ -153,11 +359,11 @@ generations.</p>
     </section>
 
     <!-- Plant section -->
-     <section class="bg-green-800 text-center justify-center">
-       <h1 class="text-white font-bold text-xl text-center py-20">Plant a Tree Today</h1>
-       <div class="bg-green-700 rounded-lg justify-center text-center px-5 mx-80 py-20 shadow-lg">
+     <section class="bg-green-700 text-center justify-center">
+       <h1 class="text-white font-bold text-xl text-center py-20 md:text-3xl">Plant a Tree Today</h1>
+       <div class="bg-green-600 rounded-lg justify-center text-center px-5 mx-80 py-20 shadow-lg">
         <form>
-        <input class="bg-white rounded-xl w-80 pl-3 mb-3 py-2" type="text" placeholder="Your Name" required>
+        <input class="bg-white rounded-xl w-80 pl-3  mb-3 py-2" type="text" placeholder="Your Name" required>
         <br>
         
         <input class="bg-white mb-3 rounded-xl w-80 pl-3 py-2" type="text" placeholder="Your Email" required>
@@ -169,5 +375,14 @@ generations.</p>
      
 
      </section>
+     <!-- footer -->
+      <footer class="bg-green-800">
+         <h3 class="text-white  font-semibold items-center justify-center text-center py-5 text-sm">© 2025 Green Earth. All Rights Reserved.</h3>
+      </footer>
+
+      <script>
+    
+  </script>
+
 </body>
 </html>
